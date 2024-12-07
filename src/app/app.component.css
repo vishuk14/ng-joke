@@ -1,0 +1,45 @@
+.joke_container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #F0C27B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4B1248, #F0C27B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    h1,
+    span {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #fff;
+
+    }
+
+    button {
+        margin-top: 12px;
+        border-radius: 4px;
+        padding: 8px 12px;
+        border: 1px solid #fff;
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        transition: all .4s ease-in-out;
+
+        background: #fff;
+        color: #000;
+
+        &:hover {
+
+            border-color: #000;
+            background: #000;
+            color: #fff;
+        }
+    }
+}
